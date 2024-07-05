@@ -1,0 +1,12 @@
+.nav-el {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.rr {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 20px;
+}
