@@ -59,7 +59,7 @@ class Login extends Component {
   }
   render() {
     const {userId, pin, se, em} = this.state
-    const token = Cookies.get('jwt_token')
+    const token = Cookies.get('jwt-token')
     if (token !== undefined) {
       return <Redirect to="/" />
     }

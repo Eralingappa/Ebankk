@@ -1,4 +1,3 @@
-
 import {Link, withRouter} from 'react-router-dom'
 
 import Cookies from 'js-cookie'
@@ -7,7 +6,7 @@ import './index.css'
 const Header = props => {
   const remove = () => {
     const {history} = props
-    Cookies.remove('jwt-token')
+    Cookies.remove('jwt_token')
     history.replace('/ebank/login')
   }
 

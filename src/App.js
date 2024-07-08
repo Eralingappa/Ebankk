@@ -1,9 +1,8 @@
 import './App.css'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 import Login from './components/Login'
 import Home from './components/Home'
-
-import './components/NotFound'
+import NotFound from './components/NotFound'
 
 const App = () => (
   <div>
