@@ -8,7 +8,7 @@ class Login extends Component {
   state = {
     userId: '',
     pin: '',
-    se: '',
+    se: false,
     em: '',
   }
 
@@ -20,7 +20,7 @@ class Login extends Component {
 
   two = event => {
     this.setState({
-      userId: event.target.value,
+      pin: event.target.value,
     })
   }
 
